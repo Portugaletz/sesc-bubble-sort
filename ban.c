@@ -46,7 +46,7 @@ int main(void) {
   }
   temp = head;
   while (temp->next!=NULL){
-    printf("%d\n",temp->next->value);
+    printf("%d ",temp->next->value);
     temp = temp->next;
   }
   return 0;
